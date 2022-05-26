@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/*HEADER*/
+.logo > img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.search > label > input {
+   border: none;
+   color: #919397;
+   font-size: 15px;
+   background-color: #EFEFEF;
+   border-radius: 5px;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+
+.menu > ul > li > img {
+    width: 23px;
+}
+
+ul > li {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+    cursor: pointer;
+}
+
+header > nav {
+    padding: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header {
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+}
+
+header > nav > .menu > ul > span {
+    background-color: #ED4956;
+    color: #FFFFFF;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    border-radius: 50px;
+    position: relative;
+    left: 107px;
+    bottom: 16px;
+    cursor: pointer;
+}
+
+/*USER*/
+
+.profile {
+    width: 700px;
+    height: 170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #262626;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.profile > .profile-photo > img {
+    width: 170px;
+    border-radius: 50%;
+}
+
+.user {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user > .settings {
+    display: flex;
+}
+
+.user > .settings > button > img {
+    width: 23px;
+}
+
+.user > .settings > h1 {
+    font-size: 27px;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+.user > .settings > .edit-button {
+    margin-right: 20px;
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.user > .settings > .settings-button {
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.user > .settings, .user > .name {
+    margin-left: 13px;
+}
+
+/*MAIN*/
+
+main > .options {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+main > .options > ul li {
+    padding: 20px;
+}
+
+main > .feed {
+    width: 1000px;
+    height: 170px;
+    margin: auto;
+    text-align: center;
+}
+
+main > .feed > ul li > img {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+/*NOTIF*/
+
+
+
