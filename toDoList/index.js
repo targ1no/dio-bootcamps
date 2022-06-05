@@ -1,14 +1,15 @@
 let array = []
 
 function addItem() {
-    let list = document.getElementById('list')
-    let input = document.getElementById('input').value
+    const list = document.getElementById('list')
+    const input = document.getElementById('input').value
 
-    let li = document.createElement('li')
-    let div = document.createElement('div')
-    let x = document.createElement('button')
-    let checkbox = document.createElement('input');
+    const li = document.createElement('li')
+    const div = document.createElement('div')
+    const x = document.createElement('button')
+    const checkbox = document.createElement('input')
     checkbox.type = "checkbox";
+    checkbox.classList.add('checkbox');
 
     array.push(input).value
     li.innerHTML = input
@@ -23,11 +24,9 @@ function addItem() {
     div.appendChild(x)
     div.appendChild(checkbox)
 
-    //console.log(array)
 }
 
 function clearInput() {
     document.getElementById('input').value = " "
 }
-
 

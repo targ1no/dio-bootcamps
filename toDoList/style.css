@@ -1,3 +1,8 @@
+@keyframes example {
+    from {background-color: #276caa;}
+    to {background-color: #020024;}
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +11,10 @@
 body {
     font-family: sans-serif;
     color: #FFF;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 h1 {
@@ -19,8 +28,13 @@ h1 {
     border: none;
 }
 
+#input:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 #addButton {
-    width: 30px;
+    width: 100px;
     height: 35px;
     border-radius: 5px;
     border: none;
@@ -28,8 +42,14 @@ h1 {
     font-weight: 600;
 }
 
+#addButton:hover, #clearButton:hover {
+    background: none;
+    color: #FFF;
+    transition: 0.2s;
+}
+
 #clearButton {
-    width: 37px;
+    width: 100px;
     height: 35px;
     border-radius: 5px;
     border: none;
@@ -51,7 +71,6 @@ main > form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: blue;
 }
 
 main > form > span > ul {
@@ -76,6 +95,4 @@ main > form > span > ul li {
     border-radius: 5px;
     padding: 3px;
 }
-
-
 
