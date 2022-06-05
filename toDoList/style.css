@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 102px;
+}
+
+#input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+#addButton {
+    width: 30px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#clearButton {
+    width: 37px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button {
+    width: 14px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+main > form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+}
+
+main > form > span > ul {
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > form > span > ul li {
+    width: 300px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(55, 55, 55);
+    background-color: #FFF;
+    margin: 6px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+
