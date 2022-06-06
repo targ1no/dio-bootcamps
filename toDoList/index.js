@@ -1,32 +1,46 @@
-let array = []
+//let array = []
 
 function addItem() {
-    const list = document.getElementById('list')
-    const input = document.getElementById('input').value
+    let list = document.getElementById('list')
+    let input = document.getElementById('input').value
 
-    const li = document.createElement('li')
-    const div = document.createElement('div')
-    const x = document.createElement('button')
-    const checkbox = document.createElement('input')
+    let div = document.createElement('div')
+    let x = document.createElement('input')
+    let checkbox = document.createElement('input')
+    let li = document.createElement('li')
+
     checkbox.type = "checkbox";
-    checkbox.classList.add('checkbox');
+    x.type = "button";
+    x.value = 'X'
 
-    array.push(input).value
+    checkbox.classList.add('checkbox');
+    li.classList.add('item');
+    x.classList.add('deleteItem')
+
+    //array.push(input).value
     li.innerHTML = input
-    li.style.fontWeight = 600
 
     x.innerHTML = 'X'
-    x.style.fontWeight = 700 
-    x.style.color = 'red'
 
-    list.appendChild(li)
-    li.appendChild(div)
+    list.appendChild(div)
     div.appendChild(x)
     div.appendChild(checkbox)
+    div.appendChild(li)
+
+    x.addEventListener("click", deleteItem);
+    function deleteItem() {
+        //array.splice
+        li.parentNode.removeChild(li)
+        x.parentNode.removeChild(x)
+        checkbox.parentNode.removeChild(checkbox)
+    }
+
+    //console.log(array)
 
 }
 
 function clearInput() {
     document.getElementById('input').value = " "
 }
+
 
