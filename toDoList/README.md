@@ -12,18 +12,24 @@ Uma lista de "ToDos", tendo como finalidade colocar conhecimento em JS na práti
 
 ## Deployment
 
-Em andamento
+To deploy this project copy the link, open the browser and:
 
+```bash
+  https://targ1no.github.io/toDoList/
+```
 
 
 ## Demo
 
-Em andamento
-
+![Alt Text](https://media.giphy.com/media/y33agQXkggkax8os5X/giphy.gif)
 
 ## Features
 
-- Em andamento
+- Add an item
+- Delete an item
+- Check an item
+- Clear input
+
 
 
 ## Run Locally
