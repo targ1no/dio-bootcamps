@@ -58,7 +58,6 @@ h1 {
     border: none;
     cursor: pointer;
     font-weight: 600;
-    color: ;
 }
 
 button {
@@ -91,6 +90,7 @@ main > form > span > ul li  {
     width: 300px;
     height: 25px;
     display: flex;
+    align-items: center;
     color: rgb(55, 55, 55);
     background-color: #FFF;
     margin: 6px;
