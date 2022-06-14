@@ -9,44 +9,41 @@ Uma lista de "ToDos", tendo como finalidade colocar conhecimento em JS na práti
 - [Bruna Targino](https://www.github.com/targ1no)
 
 
-
 ## Deployment
 
-To deploy this project copy the link, open the browser and:
+Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do browser:
 
-```bash
-  https://targ1no.github.io/toDoList/
-```
+- [To do List](https://targ1no.github.io/toDoList/)
 
 
 ## Demo
 
-![Alt Text](https://media.giphy.com/media/y33agQXkggkax8os5X/giphy.gif)
+![Alt Text](https://media.giphy.com/media/BAIjvSfJTJViOzDRru/giphy.gif)
+
 
 ## Features
 
-- Add an item
-- Delete an item
-- Check an item
-- Clear input
-
+- Adiciona um item
+- Deleta um item
+- Checa um item
+- Limpa o input
 
 
 ## Run Locally
 
-Clone the project
+Faça o clone do projeto
 
 ```bash
   git clone https://github.com/targ1no/dio-bootcamps/tree/main/toDoList
 ```
 
-Go to the project directory
+Vá para o diretório dele
 
 ```bash
   cd toDoList
 ```
 
-Install Live Server (vsCode)
+Instale a extensão do Live Server (vsCode)
 
 ```bash
   open with Live Server
